@@ -1,6 +1,6 @@
 
 ## Matcha Lab
-**~currently in progress~**
+~currently in progress~
 
 I had my first Matcha in March 2024 and i've loved the drink since then. 
 
