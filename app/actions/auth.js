@@ -1,4 +1,4 @@
-// server action for sign up logic using supabase auth 
+// server action for user sign up logic using supabase auth 
 'use server'
 
 import { createClient } from '../../utils/supabase/server'
@@ -7,7 +7,7 @@ import { redirect } from 'next/navigation'
 export async function signup(formData) {
   const supabase = await createClient()
 
-  // Grab the email and password from the sign up form
+  // fetch the user's email and password from the sign up form
   const data = {
     email: formData.get('email'),
     password: formData.get('password'),
