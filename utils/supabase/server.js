@@ -1,4 +1,5 @@
-// standard reciupe for next.js auth with Supabase, using the server component client to handle auth and db interactions on the backend. This allows us to securely manage user sessions and interact with our database without exposing sensitive information to the client side.
+// next.js auth with Supabase, using the server component client to handle auth and db interactions on the backend. This allows us to securely manage user sessions and interact with our database without exposing sensitive information to the client side.
+
 import { createServerClient } from '@supabase/ssr'
 import { cookies } from 'next/headers'
 
