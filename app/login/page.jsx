@@ -44,7 +44,7 @@ export default function LoginPage({ searchParams }) {
         </form>
 
         <p style={{ textAlign: 'center', fontSize: '13px', marginTop: '24px', color: '#8C8C8C' }}>
-          Don&apos;t have an account? <Link href="/signup" style={{ color: '#A3B18A', textDecoration: 'none' }}>Sign up here</Link>
+          Don&apos;t have an account? <Link href="/signup" style={{ color: '#74A12E', textDecoration: 'underline' }}>Sign up here</Link>
         </p>
       </div>
     </div>
