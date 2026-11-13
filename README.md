@@ -11,7 +11,7 @@ The inspiration behind matcha lab was to have a place to track all my recipes (n
 
 
 ## Tech Stack
-Front-end: react.js + next.js + react
+Front-end: react.js + next.js 
 
 DB: Supabase (PostgreSQL)
 
